@@ -1,4 +1,4 @@
-# hubspotnpm init
+# hubspot npm init
 
 - npm install express --save
 - npm install request --save
