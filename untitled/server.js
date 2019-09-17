@@ -13,8 +13,8 @@ app.post('/submit', (req, res) => {
     const request = require("request");
 
 		const options = { method: 'POST',
-			url: 'https://api.hubapi.com/contacts/v1/contact/createOrUpdate/email/testingapis@hubspot.com/',
-			qs: { hapikey: '2644317d-95d0-443f-8fc0-77d1f41df18b' },
+			url: 'https://api.hubapi.com/contacts/v1/contact/createOrUpdate/email/',
+			qs: { hapikey: 'API KEY' },
 			headers:
 			 {  'Content-Type': 'application/json' },
 			body:
